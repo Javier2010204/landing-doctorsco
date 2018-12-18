@@ -5,6 +5,7 @@
 		%title La plataforma que conecta medicos y pacientes
 		%meta{name:"description", content:"por si alguien nos busca"}
 		%link{rel:"stylesheet", href:"css/normalize.css"}
+		%link{rel:"stylesheet", href:"https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"}
 		%link{rel:"stylesheet", href:"css/style.css"}
 		%meta{name:"viewport", content:"width=device-width,initial-scale=1"}
 		%script{src:"js/vendor/modernizr-2.8.3.min.js"}
@@ -17,6 +18,14 @@
 			%a{href:"http://browsehappy.com/"}
 				actualiza tu navegador
 			para una mejor experiencia
-		="<![endif]>"
-		%h1 Bienvenido a DoctorsCo
+		="<![endif]-->"
+		.video-container
+			%video{autoplay:true,loop:true,width:"1280",height:"720",poster:"videos/images/love-coding.jpg"}
+				%source{src:"videos/mp4/love-coding.mp4", typ:"video/mp4"}
+				%source{src:"videos/webm/love-coding.webm", typ:"video/webm"}
+		.row.full-height.middle-xs.center-xs.relative.up
+			.col-xs-12
+				.box.white-text
+					%h1 loading...
+		
 
