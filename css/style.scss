@@ -125,6 +125,7 @@ textarea {
 
   .navigation{
       li{
+          @extend .medium;
           padding: 5px 10px;
       }
   }

@@ -104,7 +104,7 @@ textarea {
 .title {
   font-size: 4em; }
 
-.medium {
+.medium, .navigation li {
   font-size: 1.4em; }
 
 .white-text {
