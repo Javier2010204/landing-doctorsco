@@ -31,8 +31,22 @@
 					%h1.white-text.title.no-margin Loading
 					%p Grandes ideas, grandes proyectos
 			%nav.fixed.top.right.white-text.navigation#navigation
+				-menu=["Inicio","Nosotros","Proyectos","Contacto"]
 				%ul.list-inline
-					%li.list-inline-item Inicio 
-					%li.list-inline-item Nosotros 
-					%li.list-inline-item Proyectos 
-					%li.list-inline-item Contacto
+					-menu.each do |item|
+						%li.list-inline-item
+							%a(href="#")=item
+			.absolute.black.large-padding.white-text.bottom.full-width#description
+				.row.middle-xs
+					.col-xs-7.col-sm-6.white-text.medium
+						Ideas creadas por artistas del codigo
+					.col-xs
+						.box
+							%nav.text-right.navigation
+								%ul.list-inline.no-margin
+									-menu.each do |item|
+										%li.list-inline-item
+											%a(href="#")=item
+
+		.full-height
+					

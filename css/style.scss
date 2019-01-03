@@ -127,6 +127,17 @@ textarea {
       li{
           @extend .medium;
           padding: 5px 10px;
+          transition: all 0.9s;
+        &:hover{
+            background-color: rgba(99, 97, 97, 0.8);
+        }
+        a{
+            color: white;
+            &:hover{
+                text-decoration: none;
+                cursor: pointer;
+            }
+        }
       }
   }
 
@@ -147,7 +158,20 @@ textarea {
  /* ==========================================================================
    Helper classes
    ========================================================================== */
-  .title{
+  /*
+    Cambiar la forma en la que se muestran los colores
+  */
+  .white-text{
+    color: #fff;
+  }
+
+  .black{
+      background-color: #000;
+  }
+  // fin de los colores
+  
+  
+   .title{
     font-size: 4em;
   }
 
@@ -155,12 +179,13 @@ textarea {
       font-size: 1.5em;
   }
 
-  .white-text{
-    color: #fff;
-  }
 
   .full-height{
     height: 100%;
+  }
+
+  .full-width{
+      width: 100%;
   }
 
   .relative{
@@ -171,8 +196,16 @@ textarea {
       position: fixed;
   }
 
+  .absolute{
+      position: absolute;
+  }
+
   .top{
       top:3em;
+  }
+
+  .bottom{
+      bottom: 0px;
   }
 
   .right{
@@ -189,6 +222,10 @@ textarea {
 
   .no-margin{
       margin:0;
+  }
+
+  .large-padding{
+      padding: 10px 15px;
   }
 
 /*
