@@ -11,17 +11,6 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
-   html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
-  }
-
-  .color{
-    color: red;
-  }
-
   html,body{
     height: 100%;
   }
@@ -181,17 +170,24 @@ textarea {
       position: fixed;
   }
 
+  .top{
+      top:1em;
+  }
+
   .right{
     right: 5em;
-    font-weight: bold;
   }
 
   .up{
     z-index: 50;
   }
 
-  .top{
+  .margin-top{
       margin-top: 3em;
+  }
+
+  .no-margin{
+      margin:0;
   }
 
 /*

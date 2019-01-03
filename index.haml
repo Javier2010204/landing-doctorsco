@@ -5,7 +5,7 @@
 		%title La plataforma que conecta medicos y pacientes
 		%meta{name:"description", content:"por si alguien nos busca"}
 		%link{rel:"stylesheet", href:"css/normalize.css"}
-		%link{rel:"stylesheet", href:"https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"}
+		%link{rel:"stylesheet", href:"css/flexboxgrid.css"}
 		%link{rel:"stylesheet", href:"css/style.css"}
 		%meta{name:"viewport", content:"width=device-width,initial-scale=1"}
 		%script{src:"js/vendor/modernizr-2.8.3.min.js"}
@@ -26,12 +26,12 @@
 		.row.full-height.middle-xs.center-xs.relative.up
 			.col-xs-12
 				.box.white-text
-					%h1 Loading
+					%img{src:"/imgs/logo.png", width:200}
+					%h1.white-text.title.no-margin Loading
 					%p Grandes ideas, grandes proyectos
-		%nav.fixed.top.right.navigation.white-text
-			-menu=["Nosotros","Proyectos","Contacto"]
-				%ul.list-inline
-					-menu.each do |item|
-					%li=item
-		
-
+			%nav.fixed.top.right.white-text#navigation
+				%ul
+					%li.whit-text Inicio 
+					%li Nosotros 
+					%li Proyectos 
+					%li Contacto
