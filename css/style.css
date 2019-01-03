@@ -13,6 +13,9 @@ html {
   font-size: 1em;
   line-height: 1.4; }
 
+.color {
+  color: red; }
+
 html, body {
   height: 100%; }
 
@@ -100,9 +103,18 @@ textarea {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); }
 
+.navigation li {
+  padding: 5px 10px; }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+.title {
+  font-size: 4em; }
+
+.medium {
+  font-size: 1.4em; }
+
 .white-text {
   color: #fff; }
 
@@ -112,8 +124,18 @@ textarea {
 .relative {
   position: relative; }
 
+.fixed {
+  position: fixed; }
+
+.right {
+  right: 5em;
+  font-weight: bold; }
+
 .up {
   z-index: 50; }
+
+.top {
+  margin-top: 3em; }
 
 /*
  * Hide visually and from screen readers

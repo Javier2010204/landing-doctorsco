@@ -27,11 +27,11 @@
 			.col-xs-12
 				.box.white-text
 					%h1 Loading
-					%p Grandes ideas, grandes proyectos 
-		%nav.fixed.top.right.navigation.white-text#navigation
-			-menu = ["About Us", "Proyects", "Team", "Contact"]
-			%ul.list-line
-			-menu.eacho do |item|
-				%li= item
+					%p Grandes ideas, grandes proyectos
+		%nav.fixed.top.right.navigation.white-text
+			-menu=["Nosotros","Proyectos","Contacto"]
+				%ul.list-inline
+					-menu.each do |item|
+					%li=item
 		
 
