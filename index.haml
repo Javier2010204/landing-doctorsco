@@ -26,6 +26,12 @@
 		.row.full-height.middle-xs.center-xs.relative.up
 			.col-xs-12
 				.box.white-text
-					%h1 loading...
+					%h1 Loading
+					%p Grandes ideas, grandes proyectos 
+		%nav.fixed.top.right.navigation.white-text#navigation
+			-menu = ["About Us", "Proyects", "Team", "Contact"]
+			%ul.list-line
+			-menu.eacho do |item|
+				%li= item
 		
 
