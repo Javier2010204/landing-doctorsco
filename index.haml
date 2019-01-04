@@ -37,16 +37,18 @@
 						%li.list-inline-item
 							%a(href="#")=item
 			.absolute.black.large-padding.white-text.bottom.full-width#description
-				.row.middle-xs
+				.row.middle-xs.center-xs
 					.col-xs-7.col-sm-6.white-text.medium
 						Ideas creadas por artistas del codigo
-					.col-xs
+					.col-xs.hidden
 						.box
 							%nav.text-right.navigation
-								%ul.list-inline.no-margin
+								%ul.list-inline
 									-menu.each do |item|
 										%li.list-inline-item
 											%a(href="#")=item
-
 		.full-height
+		%script{src:"https://code.jquery.com/jquery-3.3.1.min.js",integrity:"sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=",crossorigin:"anonymous"}
+		%script
+			window.jQuery || document.write("<script src="/js/vendor/jquery-3.3.1.min.js"></script>")
 					
