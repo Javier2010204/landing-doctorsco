@@ -26,8 +26,14 @@
 			.col-xs-12
 				.box
 					%h1.logo-font.title DoctorsCo
-					.top-space
-						%p La plataforma que conecta medicos y pacientes
+					.row.top-space.medium.center-xs
+						.col-xs-12.col-sm-6
+							.box
+								%section.section.section-3
+									%p.text-wrapper
+									%span Conecta médicos y pacientes con la información 
+									%span para una mejor experiencia e innovación en las 
+									%span consultas médicas.
 		.row.full-height.center-xs.middle-xs.pink.white-text
 			.col-xs-12
 				.box
@@ -38,19 +44,37 @@
 			.col-xs-12
 				.box
 					%h1.logo-font.top-space DoctorsCo para pacientes
-					.numbers.red.white-text
-						.circle
-							%p.font-big 1
-						%span Busca a tu médico
-					.be-awesome.red.white-text{style:"height:200px;width:100px;"}
-						%p Hola mundo
-					.be-awesome.red.white-text{style:"height:200px;width:100px;"}
-						%p Hola mundo
-					%ol
-						%li.be-awesome Busca a tu médico
-						%li#lista2 Reserva tu cita indicando fecha y hora en la que quieres ser atendido
-						%li Ve a la consulta y recibe en la aplicacion el diagnostico y tratamiento que te dejo tu medico
-						%li Recibe notificaciones que te recuerden la hora de tomar tus medicamentos, examenes que te debes realizar, proximas citas, etc.
+					.row.top-space.center-xs.middle-xs.medium
+						.col-xs-4
+							.box
+								.numbers.white-text.numero1
+									.circle
+										%p 1
+						.col-xs-1
+						.col-xs-6
+							.box
+								%p Busca a tu médico
+					.row.top-space.center-xs.middle-xs.medium
+						.col-xs-4
+							.box
+								.numbers.white-text#numero2
+									.circle
+										%p 2
+						.col-xs-1
+						.col-xs-6
+							.box
+								%p Reserva tu cita indicando fecha y hora en la que quieres ser atendido
+					.row.top-space.center-xs.middle-xs.medium
+						.col-xs-4
+							.box
+								.numbers.white-text#numero3
+									.circle
+										%p 3
+						.col-xs-1
+						.col-xs-6
+							.box
+								%p Ve a la consulta y recibe en la aplicacion el diagnostico y tratamiento que te dejo tu medico | Recibe notificaciones que te recuerden la hora de tomar tus medicamentos, examenes que te debes realizar, proximas citas, etc.
+
 		%script{src:"https://code.jquery.com/jquery-3.4.1.min.js",
   				integrity:"sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=",
   				crossorigin:"anonymous"}
@@ -58,4 +82,5 @@
 			window.jQuery || document.write("<script src='/js/vendor/jquery-3.3.1.min.js'><\/script>")
 		%script{src:"./js/main.js"}
 		%script{src:"./js/jquery.boxloader.min.js"}
+		%script{src:"./js/jScrollability.min.js"}
 					

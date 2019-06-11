@@ -198,7 +198,36 @@ textarea {
 }
 
 .logo-font {
-  font-family: "pacifico", cursive !important;
+  font-family: "pacifico", cursive;
+}
+
+.font-big {
+  font-size: 1.5em;
+}
+
+.circle {
+  font-size: 1.2em;
+  border: 5px solid white;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.section-3 .text-wrapper {
+  max-width: 600px;
+  margin: auto;
+  font-size: 2em;
+  line-height: 1.5em;
+  margin-top: 4%;
+}
+
+.section-3 .text-wrapper span {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s;
+}
+
+.section-3 .text-wrapper span.visible {
+  opacity: 1;
 }
 
 /*
