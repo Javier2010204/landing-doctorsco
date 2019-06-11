@@ -230,6 +230,11 @@ textarea {
   opacity: 1;
 }
 
+.logo-image {
+  height: 200px;
+  width: 200px;
+}
+
 /*
  * Hide visually and from screen readers
  */
