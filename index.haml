@@ -34,16 +34,28 @@
 					%h2 Busca un medico cerca de ti
 					.top-space
 						%p Buscador
-		.row.full-height.light-blue.white-text
+		.row.full-height.light-blue.white-text.center-xs
 			.col-xs-12
 				.box
-					%h2.logo-font DoctorsCo para pacientes
+					%h1.logo-font.top-space DoctorsCo para pacientes
+					.numbers.red.white-text
+						.circle
+							%p.font-big 1
+						%span Busca a tu médico
+					.be-awesome.red.white-text{style:"height:200px;width:100px;"}
+						%p Hola mundo
+					.be-awesome.red.white-text{style:"height:200px;width:100px;"}
+						%p Hola mundo
 					%ol
-						%li Busca a tu médico
-						%li Reserva tu cita indicando fecha y hora en la que quieres ser atendido
+						%li.be-awesome Busca a tu médico
+						%li#lista2 Reserva tu cita indicando fecha y hora en la que quieres ser atendido
 						%li Ve a la consulta y recibe en la aplicacion el diagnostico y tratamiento que te dejo tu medico
 						%li Recibe notificaciones que te recuerden la hora de tomar tus medicamentos, examenes que te debes realizar, proximas citas, etc.
-		%script{src:"https://code.jquery.com/jquery-3.3.1.min.js",integrity:"sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=",crossorigin:"anonymous"}
+		%script{src:"https://code.jquery.com/jquery-3.4.1.min.js",
+  				integrity:"sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=",
+  				crossorigin:"anonymous"}
 		%script
-			window.jQuery || document.write("<script src='/js/vendor/jquery-3.3.1.min.js'></script>")
+			window.jQuery || document.write("<script src='/js/vendor/jquery-3.3.1.min.js'><\/script>")
+		%script{src:"./js/main.js"}
+		%script{src:"./js/jquery.boxloader.min.js"}
 					
