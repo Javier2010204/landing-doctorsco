@@ -7,6 +7,8 @@
 		%link{rel:"stylesheet", href:"css/normalize.css"}
 		%link{rel:"stylesheet", href:"css/bootstrap.css"}
 		%link{rel:"stylesheet", href:"css/flexboxgrid.css"}
+		%link{rel:"stylesheet", href:"css/colors.css"}
+		%link{href:"https://fonts.googleapis.com/css?family=Pacifico&display=swap", rel:"stylesheet"}
 		%link{rel:"stylesheet", href:"css/style.css"}
 		%meta{name:"viewport", content:"width=device-width,initial-scale=1"}
 		%script{src:"js/vendor/modernizr-2.8.3.min.js"}
@@ -20,36 +22,28 @@
 				actualiza tu navegador
 			para una mejor experiencia
 		="<![endif]-->"
-		.video-container
-			%video{autoplay:true,loop:true,width:"1280",height:"720",poster:"videos/images/love-coding.jpg"}
-				%source{src:"videos/mp4/love-coding.mp4", typ:"video/mp4"}
-				%source{src:"videos/webm/love-coding.webm", typ:"video/webm"}
-		.row.full-height.middle-xs.center-xs.relative.up
+		.row.full-height.center-xs.middle-xs.aqua.white-text
 			.col-xs-12
-				.box.white-text
-					%img{src:"/imgs/logo.png", width:200}
-					%h1.white-text.title.no-margin Loading
-					%p Grandes ideas, grandes proyectos
-			%nav.fixed.top.right.white-text.navigation#navigation
-				-menu=["Inicio","Nosotros","Proyectos","Contacto"]
-				%ul.list-inline
-					-menu.each do |item|
-						%li.list-inline-item
-							%a(href="#")=item
-			.absolute.black.large-padding.white-text.bottom.full-width#description
-				.row.middle-xs.center-xs
-					.col-xs-7.col-sm-6.white-text.medium
-						Ideas creadas por artistas del codigo
-					.col-xs.hidden
-						.box
-							%nav.text-right.navigation
-								%ul.list-inline
-									-menu.each do |item|
-										%li.list-inline-item
-											%a(href="#")=item
-											%p prueba
-		.full-height
+				.box
+					%h1.logo-font.title DoctorsCo
+					.top-space
+						%p La plataforma que conecta medicos y pacientes
+		.row.full-height.center-xs.middle-xs.pink.white-text
+			.col-xs-12
+				.box
+					%h2 Busca un medico cerca de ti
+					.top-space
+						%p Buscador
+		.row.full-height.light-blue.white-text
+			.col-xs-12
+				.box
+					%h2.logo-font DoctorsCo para pacientes
+					%ol
+						%li Busca a tu médico
+						%li Reserva tu cita indicando fecha y hora en la que quieres ser atendido
+						%li Ve a la consulta y recibe en la aplicacion el diagnostico y tratamiento que te dejo tu medico
+						%li Recibe notificaciones que te recuerden la hora de tomar tus medicamentos, examenes que te debes realizar, proximas citas, etc.
 		%script{src:"https://code.jquery.com/jquery-3.3.1.min.js",integrity:"sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=",crossorigin:"anonymous"}
 		%script
-			window.jQuery || document.write("<script src="/js/vendor/jquery-3.3.1.min.js"></script>")
+			window.jQuery || document.write("<script src='/js/vendor/jquery-3.3.1.min.js'></script>")
 					
