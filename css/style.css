@@ -243,6 +243,12 @@ textarea {
   z-index: 50;
 }
 
+#button {
+  width: 40%;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
 .image-container {
   height: 100%;
   width: 100%;
