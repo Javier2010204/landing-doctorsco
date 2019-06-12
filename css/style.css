@@ -235,6 +235,36 @@ textarea {
   width: 200px;
 }
 
+.relative {
+  position: relative;
+}
+
+.up {
+  z-index: 50;
+}
+
+.image-container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+}
+
+.image-container img {
+  background-color: #646464;
+  background-blend-mode: soft-light;
+  filter: opacity(0.5);
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 /*
  * Hide visually and from screen readers
  */
