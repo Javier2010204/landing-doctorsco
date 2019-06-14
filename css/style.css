@@ -247,6 +247,13 @@ textarea {
   width: 40%;
   border-radius: 20px;
   border: 2px solid black;
+  padding: 5px 50px;
+}
+
+.button-text:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
 }
 
 .image-container {
