@@ -15,6 +15,22 @@ $(document).ready(function(){
 	    windowarea: "50%"
 	});
 
+	$("#textoBuscar").boxLoader({
+	    direction:"y",
+	    position: "100%",
+	    effect: "fadeIn",
+	    duration: "1s",
+	    windowarea: "50%"
+	});
+
+	$("#button").boxLoader({
+	    direction:"x",
+	    position: "100%",
+	    effect: "fadeIn",
+	    duration: "1s",
+	    windowarea: "50%"
+	});
+
 	$("#numero2").boxLoader({
 	    direction:"x",
 	    position: "100%",
