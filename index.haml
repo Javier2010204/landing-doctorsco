@@ -3,7 +3,7 @@
 	%head
 		%meta{charset:"utf-8"}
 		%title La plataforma que conecta medicos y pacientes
-		%meta{name:"description", content:"por si alguien nos busca"}
+		%meta{name:"description", content:"DoctorsCo es la plataforma que conecta medicos y pacientes con la informacion"}
 		%link{rel:"stylesheet", href:"css/normalize.css"}
 		%link{rel:"stylesheet", href:"css/bootstrap.css"}
 		%link{rel:"stylesheet", href:"css/flexboxgrid.css"}
@@ -41,7 +41,7 @@
 		.image-container
 			%img{src:"./imgs/portada.png"}
 		.row.full-height.center-xs.middle-xs.relative.font-big
-			.col-xs-12.col-sm-7
+			.col-xs-12.col-sm-7.top-space
 				.box
 					#textoBuscar
 						%h1.black-text Busca un médico cerca de ti
@@ -51,47 +51,17 @@
 		.row.full-height.light-blue.white-text.center-xs
 			.col-xs-12
 				.box
-					%h1.logo-font.top-space DoctorsCo para pacientes
-					.row.top-space.center-xs.middle-xs.medium
-						.col-xs-4
-							.box
-								.numbers.white-text.numero1
-									.circle
-										%p 1
-						.col-xs-1
-						.col-xs-6
-							.box
-								%p Busca a tu médico cerca de ti
-					.row.top-space.center-xs.middle-xs.medium
-						.col-xs-4
-							.box
-								.numbers.white-text#numero2
-									.circle
-										%p 2
-						.col-xs-1
-						.col-xs-6
-							.box
-								%p Reserva tu cita indicando fecha y hora en la que quieres ser atendido
-					.row.top-space.center-xs.middle-xs.medium
-						.col-xs-4
-							.box
-								.numbers.white-text#numero3
-									.circle
-										%p 3
-						.col-xs-1
-						.col-xs-6
-							.box
-								%p Ve a la consulta y recibe en la aplicacion el diagnostico y tratamiento que te dejo tu medico 
-					.row.top-space.center-xs.middle-xs.medium
-						.col-xs-4
-							.box
-								.numbers.white-text#numero3
-									.circle
-										%p 3
-						.col-xs-1
-						.col-xs-6
-							.box
-								%p Recibe notificaciones que te recuerden la hora de tomar tus medicamentos, examenes que te debes realizar, proximas citas, etc.
+					%h1.logo-font.top-space.subtitle DoctorsCo para pacientes
+		.row.dark-blue.full-height.white-text.center-xs
+			.col-xs-12.top-space
+				.box
+					%h1.logo-font.top-space.subtitle Beneficios de DoctorsCo para médicos
+		.row.black.white-text.center-xs
+			.col-xs-12.top-space
+				.box
+					%p Footer
+
+
 
 		%script{src:"https://code.jquery.com/jquery-3.4.1.min.js",
   				integrity:"sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=",
