@@ -7,11 +7,35 @@ $(document).ready(function(){
 		windowarea: "50%"
 	});
 
-	$(".numero1").boxLoader({
-	    direction:"x",
+	$("#Item1").boxLoader({
+	    direction:"y",
 	    position: "100%",
 	    effect: "fadeIn",
-	    duration: "1s",
+	    duration: "2s",
+	    windowarea: "50%"
+	});
+
+	$("#Item2").boxLoader({
+	    direction:"y",
+	    position: "100%",
+	    effect: "fadeIn",
+	    duration: "2s",
+	    windowarea: "50%"
+	});
+
+	$("#Item3").boxLoader({
+	    direction:"y",
+	    position: "100%",
+	    effect: "fadeIn",
+	    duration: "2s",
+	    windowarea: "50%"
+	});
+
+	$("#Item4").boxLoader({
+	    direction:"y",
+	    position: "100%",
+	    effect: "fadeIn",
+	    duration: "2s",
 	    windowarea: "50%"
 	});
 
@@ -24,30 +48,6 @@ $(document).ready(function(){
 	});
 
 	$("#button").boxLoader({
-	    direction:"x",
-	    position: "100%",
-	    effect: "fadeIn",
-	    duration: "1s",
-	    windowarea: "50%"
-	});
-
-	$("#numero2").boxLoader({
-	    direction:"x",
-	    position: "100%",
-	    effect: "fadeIn",
-	    duration: "1s",
-	    windowarea: "50%"
-	});
-
-	$("#numero3").boxLoader({
-	    direction:"x",
-	    position: "100%",
-	    effect: "fadeIn",
-	    duration: "1s",
-	    windowarea: "50%"
-	});
-
-	$("#numero4").boxLoader({
 	    direction:"x",
 	    position: "100%",
 	    effect: "fadeIn",
