@@ -286,6 +286,10 @@ textarea {
   width: 15%;
 }
 
+.no-margin {
+  margin: 0;
+}
+
 /*
  * Hide visually and from screen readers
  */

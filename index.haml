@@ -9,7 +9,7 @@
 		%link{rel:"stylesheet", href:"css/flexboxgrid.css"}
 		%link{rel:"stylesheet", href:"css/colors.css"}
 		%link{href:"https://fonts.googleapis.com/css?family=Pacifico&display=swap", rel:"stylesheet"}
-		%link{href:"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", rel:"stylesheet"}
+		%link{rel:"stylesheet", href:"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"}
 		%link{rel:"stylesheet", href:"css/style.css"}
 		%meta{name:"viewport", content:"width=device-width,initial-scale=1"}
 		%script{src:"js/vendor/modernizr-2.8.3.min.js"}
@@ -105,10 +105,19 @@
 			.col-xs-12
 				.box
 					%h1 Links de descarga
-		.row.black.white-text.center-xs
-			.col-xs-12.top-space
+		.row.black.white-text.center-xs.middle-xs
+			.col-xs-12.col-sm-6
+				.box.large-padding
+					%a.white-text.medium{:href => "https://www.facebook.com/doctorsCo/", target:"_blank"}
+						%i.fa.fa-facebook-official
+					%a.white-text.medium{:href => "https://www.instagram.com/doctors_co/", target:"_blank"}
+						%i.fa.fa-instagram
+					%a.white-text.medium{:href => "https://www.linkedin.com/company/doctorsco", target:"_blank"}
+						%i.fa.fa-linkedin
+			.col-xs.col-sm-5
 				.box
-					%p Footer
+					%p.white-text.logo-font.medium.no-margin DoctorsCo®️
+
 
 
 
