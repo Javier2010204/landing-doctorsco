@@ -282,6 +282,10 @@ textarea {
   transform: translate(-50%, -50%);
 }
 
+.image-icon img {
+  width: 15%;
+}
+
 /*
  * Hide visually and from screen readers
  */

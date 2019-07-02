@@ -9,6 +9,7 @@
 		%link{rel:"stylesheet", href:"css/flexboxgrid.css"}
 		%link{rel:"stylesheet", href:"css/colors.css"}
 		%link{href:"https://fonts.googleapis.com/css?family=Pacifico&display=swap", rel:"stylesheet"}
+		%link{href:"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", rel:"stylesheet"}
 		%link{rel:"stylesheet", href:"css/style.css"}
 		%meta{name:"viewport", content:"width=device-width,initial-scale=1"}
 		%script{src:"js/vendor/modernizr-2.8.3.min.js"}
@@ -52,23 +53,49 @@
 			.col-xs-12
 				.box
 					%h1.logo-font.top-space.subtitle DoctorsCo para pacientes
-					.row.top-space.center-xs
+					.row.center-xs.margin-top.white-text
 						.col-xs-12
 							.box
-								.row
+								.row.top-space.center-xs.medium
 									.col-xs-4
 										.box
-											numero
-									.col-xs-8
+											.image-icon
+												%img{src:"./imgs/buscador.png"}
+									.col-xs-7
 										.box
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-									.row.top-space.center-xs
-										.col-xs-4
-											.box
-												numero
-										.col-xs-8
-											.box
-												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+											%p.text-justify Busca un medico cerca de ti
+									.col-xs-1
+										.box
+								.row.top-space.center-xs.medium
+									.col-xs-4
+										.box
+											.image-icon
+												%img{src:"./imgs/calendario.png"}
+									.col-xs-7
+										.box
+											%p.text-justify Reserva tu cita indicando fecha y hora en la que quieres ser atendido
+									.col-xs-1
+										.box
+								.row.top-space.center-xs.medium
+									.col-xs-4
+										.box
+											.image-icon
+												%img{src:"./imgs/celular.png"}
+									.col-xs-7
+										.box
+											%p.text-justify Ve a la consulta y recibe en la aplicacion el diagnostico y tratamiento que te dejo tu medico
+									.col-xs-1
+										.box
+								.row.top-space.center-xs.medium
+									.col-xs-4
+										.box
+											.image-icon
+												%img{src:"./imgs/notificacion.png"}
+									.col-xs-7
+										.box
+											%p.text-justify Recibe notificaciones que te recuerden la hora de tomar tus medicamentos, examenes que te debes realizar, proximas citas, etc.
+									.col-xs-1
+										.box
 			.row.dark-blue.full-height.white-text.center-xs
 		.row.dark-blue.full-height.white-text.center-xs
 			.col-xs-12.top-space
