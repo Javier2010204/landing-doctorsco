@@ -287,6 +287,10 @@ textarea {
   width: 15%;
 }
 
+.image-doctor img {
+  width: 80%;
+}
+
 .no-margin {
   margin: 0;
 }
