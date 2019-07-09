@@ -39,6 +39,14 @@ $(document).ready(function(){
 	    windowarea: "50%"
 	});
 
+	$("#Item5").boxLoader({
+	    direction:"y",
+	    position: "100%",
+	    effect: "fadeIn",
+	    duration: "2s",
+	    windowarea: "50%"
+	});
+
 	$("#textoBuscar").boxLoader({
 	    direction:"y",
 	    position: "100%",
