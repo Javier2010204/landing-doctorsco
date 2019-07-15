@@ -261,6 +261,10 @@ textarea {
   color: white;
 }
 
+#pacientes {
+  height: 100%;
+}
+
 .image-container {
   height: 100%;
   width: 100%;
@@ -374,6 +378,25 @@ textarea {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+@media only screen and (max-width: 960px) {
+  .logo-image {
+    height: 150px;
+    width: 150px;
+  }
+  .title {
+    font-size: 4em;
+  }
+  .subtitle {
+    font-size: 2em;
+  }
+  #pacientes {
+    height: auto;
+  }
+  .image-icon img {
+    width: 50%;
+  }
+}
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:

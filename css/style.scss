@@ -298,6 +298,10 @@ textarea {
     }
 }
 
+#pacientes{
+    height: 100%;
+}
+
 .image-container{
     height: 100%;
     width: 100%;
@@ -425,7 +429,28 @@ textarea {
 
    @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
-}
+    }
+
+    @media only screen and(max-width: 960px){
+        .logo-image{
+            height: 150px;
+            width: 150px;
+        }
+        .title{
+         font-size: 4em;
+       }
+       .subtitle{
+           font-size: 2em;
+       }
+       #pacientes{
+           height: auto;
+       }
+       .image-icon{
+         img{
+             width: 50%;
+         }
+       }
+    }
 
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
