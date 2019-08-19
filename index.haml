@@ -41,6 +41,12 @@
 									%span para una mejor experiencia e
 									%span innovación en las
 									%span consultas médicas.
+			%nav.fixed.top.right.white-text.navigation#navigation
+				-menu=["Iniciar Sesion"]
+				%ul.list-inline
+					-menu.each do |item|
+						%li.list-inline-item
+							%a(href="https://doctorsco-ee4c3.web.app/")=item
 		.image-container
 			%img{src:"./imgs/portada.png"}
 		.row.full-height.center-xs.middle-xs.relative.font-big
